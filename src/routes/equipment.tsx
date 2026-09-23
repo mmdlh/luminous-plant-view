@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router";import { FactoryDashboard } from "../components/factory-dashboard";
+export const Route=createFileRoute("/equipment")({head:()=>({meta:[{title:"设备健康监控 — 擎云智造"},{name:"description",content:"关键设备状态感知与预测性维护。"},{property:"og:title",content:"设备健康监控 — 擎云智造"},{property:"og:description",content:"设备健康度、振动频谱与告警实时洞察。"},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:()=> <FactoryDashboard page="equipment"/>});

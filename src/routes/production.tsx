@@ -1,0 +1,3 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { FactoryDashboard } from "../components/factory-dashboard";
+export const Route=createFileRoute("/production")({head:()=>({meta:[{title:"智能生产调度 — 擎云智造"},{name:"description",content:"订单驱动的智慧工厂生产调度与产线协同平台。"},{property:"og:title",content:"智能生产调度 — 擎云智造"},{property:"og:description",content:"实时掌控生产节拍、工单与产能。"},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:()=> <FactoryDashboard page="production"/>});

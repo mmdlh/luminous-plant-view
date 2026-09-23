@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router";import { FactoryDashboard } from "../components/factory-dashboard";
+export const Route=createFileRoute("/warehouse")({head:()=>({meta:[{title:"智慧仓储物流 — 擎云智造"},{name:"description",content:"库存、库位、AGV 与配送任务全程可视。"},{property:"og:title",content:"智慧仓储物流 — 擎云智造"},{property:"og:description",content:"立体仓储与厂内物流高效协同。"},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:()=> <FactoryDashboard page="warehouse"/>});

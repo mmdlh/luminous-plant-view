@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router";import { FactoryDashboard } from "../components/factory-dashboard";
+export const Route=createFileRoute("/quality")({head:()=>({meta:[{title:"质量追溯分析 — 擎云智造"},{name:"description",content:"全链路质量追溯与过程能力分析。"},{property:"og:title",content:"质量追溯分析 — 擎云智造"},{property:"og:description",content:"从原料到成品的质量数据透明追踪。"},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:()=> <FactoryDashboard page="quality"/>});

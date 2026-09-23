@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router";import { FactoryDashboard } from "../components/factory-dashboard";
+export const Route=createFileRoute("/energy")({head:()=>({meta:[{title:"能源碳效管理 — 擎云智造"},{name:"description",content:"智慧工厂能源流向与碳排放实时管理。"},{property:"og:title",content:"能源碳效管理 — 擎云智造"},{property:"og:description",content:"平衡生产负荷并持续降低单位产品碳排。"},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary_large_image"}]}),component:()=> <FactoryDashboard page="energy"/>});
